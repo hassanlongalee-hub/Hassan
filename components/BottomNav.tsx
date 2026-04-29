@@ -1,6 +1,7 @@
 'use client';
 
 import type { Route } from 'next';
+=======
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
@@ -12,6 +13,8 @@ type NavItem = {
 };
 
 const navItems: NavItem[] = [
+=======
+
   { href: '/dashboard', label: 'Today', icon: '🏠' },
   { href: '/habits/new', label: 'New', icon: '➕' }
 ];
